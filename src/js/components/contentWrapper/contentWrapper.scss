@@ -1,0 +1,15 @@
+.content {
+  height:100vh;
+  overflow-y: scroll;
+}
+
+#main-content-view{
+  max-width: 900px;
+  margin:0 auto
+}
+
+@media only screen and (max-width: 1200px) {
+  .content {
+    overflow-y: visible;
+  }
+}

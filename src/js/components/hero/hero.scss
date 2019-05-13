@@ -1,0 +1,79 @@
+@import '../../../styles/globals.scss';
+
+.hero {
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background-color:#fdb813;
+
+  .hero-image {
+    width: 75%;
+    height: 0;
+    padding-top: 75%;
+    margin: 0 auto;
+    
+    .hero-image__image {
+      display:block;
+      background-image:url('../../../images/profile/1.jpg');
+      background-size:100%;
+      height:auto;
+      width:100%;
+      padding-top:100%;
+      border-radius:50%;
+      background-position:0 40%;
+      transform: translateY(-100%);
+    }
+    
+  }
+  .hero-social {
+    $hero-social__height: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+
+    height: $hero-social__height;
+    font-size: $hero-social__height;
+    i {
+      &::before {
+        padding-top: 0;
+        
+      }
+      &:hover {
+        text-shadow: 2px 1px $text-color-3;
+      }
+    }
+  }
+}
+
+#hero-introduction {
+  &h1 {
+    font-size:1.5rem;
+    margin-top:0;
+    color:#333
+  }
+  &p {
+    font-size:1rem;
+    text-align:justify;
+    color:#333
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #hero {
+    width: 100%;
+    position:relative;
+  }
+  #hero-introduction h1{
+    font-size:2rem;
+    color:#333
+  }
+  #hero-introduction p{
+      font-size:1rem;
+      text-align:justify;
+      color:#333
+  }
+}

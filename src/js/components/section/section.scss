@@ -1,0 +1,24 @@
+@import '../../../styles/globals.scss';
+
+section {
+  width: 100%;
+  display: inline-block;
+
+  aside {
+    color: $text-color-1;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width:1200px) {
+  section {
+    margin-top: 0;
+    aside {
+      line-height: 15px;
+    }
+  }
+}

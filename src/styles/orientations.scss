@@ -1,0 +1,28 @@
+@media (min-width:0px) and (max-width:900px) and (orientation:portrait){
+  #hero .col-xs-5, #hero .col-xs-7,.main-wrapper .col-md-5,.main-wrapper .col-md-7{
+      width:100vw
+  }
+  .flex-direction-mobile{
+      flex-direction:column
+  }
+}
+@media (min-width:0px) and (max-width:1199px) and (orientation:landscape){
+  #hero .col-xs-5{
+      width:41.666vw
+  }
+  #hero .col-xs-7{
+      width:58.333vw
+  }
+  .padding {
+      padding: 1rem
+  }
+  html{
+      overflow-y:auto
+  }
+  .main-wrapper .col-md-5,.main-wrapper .col-md-7{
+      width:100vw
+  }
+  .flex-direction-mobile{
+      flex-direction:row
+  }
+}

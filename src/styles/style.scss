@@ -1,0 +1,399 @@
+@import './globals.scss';
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{
+  display:block;
+}
+
+audio,canvas,video{
+  display:inline-block;
+  *display:inline;
+  *zoom:1
+}
+
+audio:not([controls]){
+  display:none
+}
+
+[hidden]{
+  display:none
+}
+
+a.left:active,a.right:active{
+  background-color:transparent!important
+}
+
+::-moz-selection{
+  background: $primary-color-1;
+  color: $text-color-2;
+  text-shadow:none
+}
+
+::selection {
+  background:#e6af61;
+  color: $text-color-2;
+  text-shadow:none
+}
+
+a{
+  text-decoration:none;
+  color: $text-color-1
+}
+.yellow_hover a:hover{
+  text-shadow: .05 rem .05 rem #AAA;
+  text-decoration:none;
+  color:inherit
+}
+
+a:active,h3 a:hover{
+  outline:0
+}
+a:active{
+  background-color:transparent
+}
+
+
+ul{
+  list-style-type:none
+}
+ul.nav{
+  background-color: $text-color-1;
+  list-style-type:none
+}
+li.nav{
+  display:inline
+}
+li.nav a:not(h3){
+  font-size:.8rem;
+  color: $text-color-2;
+  font-family:Oswald,sans-serif;
+  padding:14px 16px;
+  text-align:center;
+  text-decoration:none;
+  display:block
+}
+a:visited:not(.button_main h3),li.nav a:link:not(.button_main h3){
+  background-color:#333;
+  color: $text-color-2
+}
+a:active,li.nav a:hover:not(.button_main){
+  background-color:#151515
+}
+#associations ul,#awards ul,#proficiency ul{
+  padding:0;
+  margin:0;
+  font-size:.8rem;
+  width:48%;
+  color: $text-color-2
+}
+#awards ul{
+  width:100%
+}
+#associations ul li,#awards ul li,#proficiency ul li{
+  display:block;
+  font-size:.8rem;
+  letter-spacing:.06 rem;
+  padding-bottom:10px
+}
+#bar ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden
+}
+#bar li{
+  float:left;
+  margin:0
+}
+#bar li:hover{
+  background:#222
+}
+#bar li a{
+  display:block;
+  padding:19px 3px;
+  color: $text-color-2;
+  font-size:.5rem
+}
+#bar li a:hover{
+  color:#fdb813
+}
+.no-gutter-left{
+  padding-left:0;
+  margin-left:0
+}
+.no-gutter-right{
+  padding-right:0;
+  margin-right:0
+}
+.padding {
+  padding: 2rem
+}
+.float-left{
+  float:left;
+  clear:both
+}
+.float-right{
+  float:right
+}
+.center{
+  margin:auto;
+  padding:auto;
+  text-align:center
+}
+#splashscreen{
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  background-color:$primary-color-2;
+  z-index:1000;
+  display:flex;
+  font-size:1.5rem;
+  align-items:center;
+  justify-content:center
+}
+
+#header{
+  width:100%;
+  position:fixed;
+  top:0;
+  z-index:500
+}
+
+.footer{
+  width:100%;
+  margin-top:100px;
+  height:300px;
+  background:#fdb813;
+  display:flex;
+  align-items:center;
+  overflow:hidden;
+  justify-content:space-around;
+  bottom:0
+}
+.footer p{
+  text-align:center;
+  font-size:.8rem
+}
+
+article{
+  width:100%;
+  display:inline-block
+}
+.clearfix:after{
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  line-height:0;
+  height:0
+}
+.clearfix{
+  display:inline-block
+}
+html[xmlns] .clearfix{
+  display:block
+}
+* html .clearfix{
+  height:1%
+}
+article ul{
+  -webkit-margin-before:1 rem;
+  -webkit-margin-after:1 rem;
+  -webkit-margin-start:0;
+  -webkit-margin-end:0
+}
+
+.no-gutter{
+  margin:0!important;
+  padding:0!important
+}
+.date{
+  color: $text-color-2;
+  font-size:.8rem;
+  width:33%;
+  float:right;
+  letter-spacing:.05 rem
+}
+#profile-wrap{
+  width:100%;
+  position:relative;
+  top:0;
+  height:100%;
+  overflow:hidden;
+  background:#f0f4f4
+}
+#profile-pic{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+  position:relative;
+  margin-bottom:-2px
+}
+
+
+#associations article,#awards article,#proficiency article{
+  z-index:1;
+  position:relative
+}
+.button_padding{
+  padding:2px 4px;
+  word-spacing:-4px;
+  position:relative;
+  right:5px
+}
+.drop-wrapper{
+  text-align:left
+}
+
+.skill-bar{
+  height:5px;
+  float:right;
+  margin:5px 0;
+  display:inline-block
+}
+.bar{
+  height:5px;
+  width:50px;
+  background:#333
+}
+.skill-level{
+  height:5px;
+  background:#fdb813
+}
+
+.rowanskye {
+  margin:0 auto;
+  width:178px;
+  line-height:1.4 rem
+}
+.rowanskye-text-main{
+  font-size:2rem;
+  display:flex;
+  justify-content:center
+}
+.rowanskye-text-sub{
+  font-size:1rem;
+  display:flex;
+  justify-content:space-between
+}
+img{
+  vertical-align:initial
+}
+.show-more{
+  height:30px;
+  opacity:1;
+  color:inherit;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color:transparent;
+  margin:-5px auto 10px
+}
+.show-more:hover{
+  letter-spacing:.025 rem;
+  cursor:pointer
+}
+
+.flex-center{
+  display:flex;
+  align-items:center;
+  justify-content:space-around
+}
+.flex{
+  display:flex
+}
+.align-self-center{
+  align-self:center;
+  margin-top:auto;
+  margin-bottom:auto
+}
+.align-items-stretch{
+  align-items:stretch
+}
+.align-items-center{
+  align-items:centerF
+}
+.justify-content-center{
+  justify-content:center
+}
+.justify-content-space-around{
+  justify-content:space-around
+}
+.full-width{
+  width:100vw
+}
+
+.lightboxOverlay{
+  background-color: $primary-color-2;
+  opacity:.5
+}
+.lb-data{
+  color:inherit
+}
+.lb-outerContainer{
+  border-radius:0;
+  background-color:transparent
+}
+.lightbox .lb-image{
+  border-radius:0;
+  max-width:500px;
+  height:auto
+}
+img.lb-image{
+  max-width:500px!important;
+  max-height:500px!important;
+  height:auto!important
+}
+@media (min-width:1200px){
+
+  .full-width{
+      width:calc(100vw-17px)
+  }
+  .flex-direction-mobile{
+      flex-direction:column
+  }
+  #main-content-view{
+      max-width:1200px
+  }
+  header{
+      margin-bottom:50px
+  }
+  h3,h3 a{
+      font-size:1.2rem
+  }
+  h4{
+      font-size:2rem
+  }
+ 
+  .pdf h5{
+      margin-left:43%
+  }
+  #bar li a{
+      padding:15px 9px;
+      font-size:.5 rem
+  }
+  #profile-wrap{
+      display:webkit-flex;
+      display:flex;
+      display:ms-flexbox
+  }
+  #profile-pic{
+      width:48%;
+      margin-right:2%;
+      display:inline-block;
+      text-align:center
+  }
+  #profile-pic img{
+      max-width:100%
+  }
+  #associations ul li,#awards ul li,#proficiency ul li{
+      font-size:1.2rem
+  }
+  section{
+      margin-top:0
+  }
+
+}
+
