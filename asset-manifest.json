@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ReactResume/static/css/main.9c6a8e3e.chunk.css",
+    "main.js": "/ReactResume/static/js/main.53754d38.chunk.js",
+    "main.js.map": "/ReactResume/static/js/main.53754d38.chunk.js.map",
+    "runtime~main.js": "/ReactResume/static/js/runtime~main.1ce63500.js",
+    "runtime~main.js.map": "/ReactResume/static/js/runtime~main.1ce63500.js.map",
+    "static/js/2.2aff5a85.chunk.js": "/ReactResume/static/js/2.2aff5a85.chunk.js",
+    "static/js/2.2aff5a85.chunk.js.map": "/ReactResume/static/js/2.2aff5a85.chunk.js.map",
+    "index.html": "/ReactResume/index.html",
+    "precache-manifest.d0db9949b554bb53be0fdd513b9a1afc.js": "/ReactResume/precache-manifest.d0db9949b554bb53be0fdd513b9a1afc.js",
+    "service-worker.js": "/ReactResume/service-worker.js",
+    "static/css/main.9c6a8e3e.chunk.css.map": "/ReactResume/static/css/main.9c6a8e3e.chunk.css.map",
+    "static/media/1.jpg": "/ReactResume/static/media/1.ec73e449.jpg",
+    "static/media/2.jpg": "/ReactResume/static/media/2.91f6b51c.jpg",
+    "static/media/3.jpg": "/ReactResume/static/media/3.f107c622.jpg",
+    "static/media/4.jpg": "/ReactResume/static/media/4.d2ad96a2.jpg",
+    "static/media/5.jpg": "/ReactResume/static/media/5.77a65d9b.jpg",
+    "static/media/6.jpg": "/ReactResume/static/media/6.04cd6cf3.jpg",
+    "static/media/7.jpg": "/ReactResume/static/media/7.4ab64702.jpg",
+    "static/media/8.jpg": "/ReactResume/static/media/8.99e0c898.jpg",
+    "static/media/index.scss": "/ReactResume/static/media/glyphicons-halflings-regular.fa277232.woff"
+  }
+}
