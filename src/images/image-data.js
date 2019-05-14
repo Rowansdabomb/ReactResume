@@ -1,4 +1,70 @@
 export const images = {
+  "ubc-projects": {
+    "haptic-feedback-system": {
+      images: [
+        {
+          title: "",
+          alt: "",
+          fileName: "1.jpg"
+        },
+        {
+          title: "",
+          alt: "",
+          fileName: "2.jpg"
+        },
+      ],
+    },
+  },
+  "guitars": {
+    "acoustic": {
+      images: [
+        {
+          title: "",
+          alt: "",
+          fileName: "1.jpg"
+        },
+        {
+          title: "",
+          alt: "",
+          fileName: "2.jpg"
+        },
+        {
+          title: "",
+          alt: "",
+          fileName: "3.jpg"
+        },
+        {
+          title: "",
+          alt: "",
+          fileName: "4.jpg"
+        },
+      ]
+    },
+    "electric": {
+      images: [
+        {
+          title: "",
+          alt: "",
+          fileName: "1.jpg"
+        },
+        {
+          title: "",
+          alt: "",
+          fileName: "2.jpg"
+        },
+        {
+          title: "",
+          alt: "",
+          fileName: "3.jpg"
+        },
+        {
+          title: "",
+          alt: "",
+          fileName: "4.jpg"
+        },
+      ]
+    }
+  },
   "experience": {
       "baker-french-props": {
         images: [
@@ -23,53 +89,6 @@ export const images = {
             fileName: "4.jpg"
           }
         ],
-      },
-      "guitar": {
-        images: [
-          {
-            title: "",
-            alt: "",
-            fileName: "1.jpg"
-          },
-          {
-            title: "",
-            alt: "",
-            fileName: "2.jpg"
-          },
-          {
-            title: "",
-            alt: "",
-            fileName: "3.jpg"
-          },
-          {
-            title: "",
-            alt: "",
-            fileName: "4.jpg"
-          },
-          {
-            title: "",
-            alt: "",
-            fileName: "5.jpg"
-          },
-          {
-            title: "",
-            alt: "",
-            fileName: "6.jpg"
-          },
-          {
-            title: "",
-            alt: "",
-            fileName: "7.jpg"
-          },
-          {
-            title: "",
-            alt: "",
-            fileName: "8.jpg"
-          }
-        ]
-      },
-      "haptic": {
-        images: [],
       },
       "triumf": {
         images: [

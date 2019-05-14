@@ -5,7 +5,19 @@
 
 #main-content-view{
   max-width: 900px;
-  margin:0 auto
+  margin:0 auto;
+
+  &.padding {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  #main-content-view{
+    &.padding {
+      padding: 2rem;
+    }
+  }
 }
 
 @media only screen and (max-width: 1200px) {

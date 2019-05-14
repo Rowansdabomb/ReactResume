@@ -14,6 +14,22 @@ section {
   }
 }
 
+.skill-bar{
+  height: 5px;
+  float: right;
+  margin: 5px 0;
+}
+
+.bar{
+  height:5px;
+  width:50px;
+  background: $text-color-1;
+}
+.skill-level{
+  height:5px;
+  background: $primary-color-3;
+}
+
 @media (min-width:1200px) {
   section {
     margin-top: 0;

@@ -27,7 +27,6 @@ class Carousel extends React.Component {
 
   
   showFullImage = (name, alt) => {
-    console.log("Show full image", name, alt)
     this.setState({
       fullImage: {
         fileName: name,

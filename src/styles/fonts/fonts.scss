@@ -40,7 +40,7 @@ h2 {
 }
 
 h3 {
-  font-size: .8rem;
+  font-size: 1.2rem;
   font-weight: 500;
   color: $text-color-3;
   margin: 0;
@@ -52,11 +52,11 @@ h3 {
   letter-spacing: .05rem;
   font-weight: 600;
   font-size: 1rem;
-  line-height: 10px;
+  line-height: 1.4rem;
   margin-bottom: .75rem;
 }
 
-h4{
+h4 {
   font-size: 2rem;
   margin-top: 0;
   padding: 1px 0 0;
@@ -68,5 +68,9 @@ h4{
 @media (min-width:1200px){
   body {
     font-size: 1rem
+  }
+
+  h4{
+    font-size:2rem
   }
 }

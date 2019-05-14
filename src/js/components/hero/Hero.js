@@ -7,16 +7,23 @@ class Hero extends React.Component {
     return (
       <div id="hero" className='hero col-md-5 no-gutter  flex'>
         <div className='row flex-center align-self-center flex-direction-mobile justify-content-center padding'>
-          <div className='col-sm-12 col-xs-4'>
+          <div className='col-xs-12'>
               <div id="hero-image" className='hero-image' >
                 <div className='hero-image__image'></div>
               </div>
           </div>
-          <div className='col-sm-12 col-xs-6'>
+          <div className='col-xs-12'>
               <div className='hero-social'>
-                <i className="fa fa-github"></i>
-                <i className="fa fa-linkedin"></i>
-                <i className="fa fa-envelope"></i>
+                <a href="https://github.com/Rowansdabomb">
+                  <i className="fa fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/rowanskye/">
+                  <i className="fa fa-linkedin"></i>
+                </a>
+                <a href="mailto:rowanskye@gmail.com?Subject=Resume%20website%20contact">
+                  <i className="fa fa-envelope"></i>
+                </a>
+                
               </div>
               <div id="hero-introduction">
                   <h1>Hello! I am Rowan Skye</h1>

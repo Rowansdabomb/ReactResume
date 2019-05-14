@@ -1,3 +1,5 @@
+@import '../../../styles/globals.scss';
+
 .carousel-container {
   position: relative;
   height: 0;
@@ -85,6 +87,11 @@
 
   .carousel-full__image {
     position: relative;
+    max-width: 100vw;
+
+    img{
+      max-width: 100vw;
+    }
     .carousel-full__image-close {
       position: absolute;
       right: .5rem;
@@ -92,6 +99,7 @@
       font-size: 2rem;
       transition: all .2s;
       cursor: pointer;
+      color: black;
       
       &:hover {
         opacity: .7;
