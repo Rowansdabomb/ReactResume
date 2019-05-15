@@ -12,7 +12,7 @@ class Hero extends React.Component {
                 <div className='hero-image__image'></div>
               </div>
           </div>
-          <div className='col-xs-12'>
+          <div className='col-md-10 offset-md-1 col-xs-12'>
               <div className='hero-social'>
                 <a href="https://github.com/Rowansdabomb">
                   <i className="fa fa-github"></i>

@@ -23,14 +23,16 @@ const subSections = {
   VEX_ROBOT: "Vex Robot",
   ACOUSTIC: "acoustic",
   ELECTRIC: "electric",
+  UBC: "University of British Columbia",
+  UVIC: "University of Victoria",
   CPLUSPLUS: "C/C++",
   PYHTON: "Python",
   HTML: "HTML + CSS",
   JAVASCRIPT: "Javascript",
+  REACT: "react",
+  REDUX: "redux",
   SOLIDWORKS: "SolidWorks",
   ADOBE_SUITE: "Adobe Suite",
-  UBC: "University of British Columbia",
-  UVIC: "University of Victoria"
 }
 
 
@@ -46,7 +48,7 @@ const sectionData = {
           endDate: null,
           role: "Software",
           content: [
-            "TODO",    
+            "A python project using opencv to <q>draw</q> on a projected screen. You set the colour of the object you want to draw with, then stand infront of the projector and draw away!",    
           ]
         },
         {
@@ -56,7 +58,7 @@ const sectionData = {
           endDate: null,
           role: "Software",
           content: [
-            "TODO, may take a while to load",    
+            "A js game built with React and Redux to explore the limitations and strengths of the libraries. It is hosted on heroku and the link may take a while to load",    
           ]
         },
         {
@@ -101,7 +103,7 @@ const sectionData = {
           endDate: "Tue Apr 30 2019",
           role: "Full Stack Engineer",
           content: [
-            "TODO",    
+            "The Ubyssey is western Canada's largest student newspaper. I worked as a full stack developer and web master and continue to provide support for both the ubyssey.ca and dispatch, the in-house CMS built to run The Ubyssey online.",    
           ]
         },
         {
@@ -217,11 +219,15 @@ const sectionData = {
       title: sections.PROFICIENCIES,
       subSections: [
         {
-          title: subSections.CPLUSPLUS,
-          width: 50
+          title: subSections.JAVASCRIPT,
+          width: 70
         },
         {
-          title: subSections.PYHTON,
+          title: subSections.REACT,
+          width: 80
+        },
+        {
+          title: subSections.REDUX,
           width: 60
         },
         {
@@ -229,8 +235,12 @@ const sectionData = {
           width: 80
         },
         {
-          title: subSections.JAVASCRIPT,
-          width: 70
+          title: subSections.CPLUSPLUS,
+          width: 50
+        },
+        {
+          title: subSections.PYHTON,
+          width: 60
         },
         {
           title: subSections.SOLIDWORKS,

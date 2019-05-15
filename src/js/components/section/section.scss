@@ -14,6 +14,13 @@ section {
   }
 }
 
+.skill-bar__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: .5rem;
+}
+
 .skill-bar{
   height: 5px;
   float: right;

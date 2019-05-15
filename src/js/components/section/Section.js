@@ -14,7 +14,7 @@ class Section extends React.Component {
 
   renderSkillBar = (data, index) => {
     return (
-      <div key={makeReactKey('skill-bar-', index)}className="col-md-4 f-space-between align-items-center"> {data.title}
+      <div key={makeReactKey('skill-bar-', index)} className="skill-bar__wrapper col-md-4 f-space-between align-items-center"> {data.title}
         <div className="skill-bar">
           <div className="bar">
             <div className="skill-level" style={{width: `${data.width}%`}}></div>

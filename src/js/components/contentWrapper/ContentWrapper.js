@@ -14,6 +14,8 @@ import { images, webSiteData } from "../../data.js"
 class ContentWrapper extends React.Component {
   
   render() {
+    const dt = new Date()
+    console.log(dt.getFullYear())
     return (
       <div id="content" className='col-md-7 content no-gutter'>
         <div id="main-content-view" className='padding'>
@@ -26,6 +28,10 @@ class ContentWrapper extends React.Component {
                 {...data} />
             )
           })}
+          <div className="footer">
+            { dt.getFullYear() }
+          </div>
+          
         </div>
       </div>
     )
